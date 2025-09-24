@@ -21,6 +21,7 @@ body {
   background: #111;
   position: sticky;
   top: 0;
+  border-bottom: 2px solid  #ffffff38;
 }
 
 .logo {
@@ -50,7 +51,7 @@ body {
   padding: 100px 20px;
   background-image: url("image/logo-de-fundo.png");
   background-repeat: no-repeat;
-  background-position: inherit;
+  background-position: right;
   background-size: 400px;
   border-radius: 20px;
   margin: 40px auto;
