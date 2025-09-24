@@ -1,67 +1,60 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- google fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <!-- fim google fonts -->
-    <link rel="stylesheet" href="styles.css">
-    <title>Portfolio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meu Portfólio</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <div class="interface">
-            <div class="logo">
-                <a href="#">
-                    <img src="/image/logo.png" alt="Logo Incode">
-                </a>
-            </div>
 
-            <nav class="menu-desktop">
-                <ul>
-                    <li><a href="">Página Inicial</a></li>
-                    <li><a href="">Skill</a></li>
-                    <li><a href="">Laboratório</a></li>
-                    <li><a href="">Contato</a></li>
-                </ul>
-            </nav>
-        </div><!--interface-->
-    </header>
+  <header>
+    <nav class="navbar">
+      <div class="logo">
+        <img src="image/logo.png" alt="">
+      </div>
+      <ul class="nav-links">
+        <li><a href="#home">Página Inicial</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <main class="container">
-        <div class="my-name">
-            <h1> < Vinícius Fontes /> </h1>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore voluptas optio voluptatum,<br> itaque inventore ipsum consequuntur fuga, dolores quibusdam dicta cumque aut molestiae<br> ab voluptatibus vero facere molestias aliquid deleniti.
-            </p>
-        </div>
+  <section id="home" class="hero">
+    <h1>&lt;My Fulano de tal /&gt;</h1>
+    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br> Lorem Ipsum has been the industry's standard dummy text ever since the <br> 1500s, when an unknown printer took a galley of type and scrambled it to <br> make a type specimen book.</p>
+  </section>
 
-        <div class="sobre">
-            <div>
-                <h1>Um pouco Sobre mim </h1>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam dicta, ipsum, inventore saepe vel reprehenderit sit, assumenda alias quae corrupti ea provident. Obcaecati quibusdam iure odio quo praesentium mollitia consectetur?</p>
-            </div>
-            
-            <div class="cards">
-                <div class="card"> 
-                    <h1>programdor</h1>
-                </div>
 
-                <div class="card"> 
-                    <h1>programador</h1>
-                </div>
+<section id="sobre" class="sobre">
+  <div class="sobre-container">
+    <h2>Conheça um pouco sobre mim</h2>
+    <p>
+      Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+      Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+      when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+    </p>
+    <div class="cards">
+      <div class="card">
+        <h3>QUANTO TEMPO SOU PROGRAMADOR</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, dolores omnis! Non rerum saepe quas, culpa dolores vero cum? Perspiciatis quia unde non earum cupiditate cum id tempora laborum ab?</p>
+      </div>
+      <div class="card">
+        <h3>QUANTO TEMPO SOU PROGRAMADOR</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium ratione sapiente ipsam recusandae consequuntur aut, minus pariatur ex eum amet dicta harum distinctio aspernatur consectetur temporibus fugiat ipsa id inventore.</p>
+      </div>
+      <div class="card">
+        <h3>QUANTO TEMPO SOU PROGRAMADOR</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam aliquid possimus quos culpa quis illum alias atque fugit et asperiores. Eum perferendis eius in consequuntur aliquam temporibus nam quod quaerat.</p>
+      </div>
+    </div>
+  </div>
+</section>
 
-                <div class="card">
-                    <h1>programador</h1> 
-                </div>
-            </div>
-        </div>
 
-    </main> 
-    
+
 
 </body>
 </html>
