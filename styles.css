@@ -12,7 +12,6 @@ body {
   line-height: 1.6;
 }
 
-
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -45,7 +44,6 @@ body {
   color: #00bfff;
 }
 
-
 .hero {
   text-align: center;
   padding: 100px 20px;
@@ -66,7 +64,6 @@ body {
   font-size: 1.2rem;
   color: #ccc;
 }
-
 
 .sobre {
   background: #1c2c34;
@@ -125,3 +122,42 @@ body {
   color: #333;
 }
 
+.skill {
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.skill h1 {
+  font-size: 2.5rem;
+  margin-bottom: 100px;
+}
+
+.projetos {
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.projetos h1 {
+  font-size: 2.5rem;
+  margin-bottom: 100px;
+}
+
+.boxs {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  
+}
+
+.box {
+  width: 300px;
+  height: 250px;
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 14px;
+  padding: 20px;
+  opacity: 1;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  color: #0f0f0f;
+}
