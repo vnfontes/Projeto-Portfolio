@@ -144,20 +144,110 @@ body {
 
 .boxs {
   display: flex;
-  justify-content: center;
   gap: 20px;
   flex-wrap: wrap;
+  width: 1216;
+  height: 536;
+  top: 2058px;
+  opacity: 1;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.box-projetos{
+  display: flex;
+  justify-content: center;
+  gap: 50px;
   
 }
 
-.box {
+.box1 {
+ 
   width: 300px;
   height: 250px;
-  background: #fff;
-  border: 1px solid #e0e0e0;
-  border-radius: 14px;
+  background: #2D82B733;
+  background-image: url(/portforio/image/Vector.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-position-y: 30px;
+  border-radius: 10px;
   padding: 20px;
   opacity: 1;
   box-shadow: 0 4px 15px rgba(0,0,0,0.1);
-  color: #0f0f0f;
+  text-align: left;
+}
+
+.box1 h3 {
+  color: #fff;
+}
+
+.box1 p {
+  color: #ffffff7c;
+  font-size: 1.2rem;
+}
+
+.box1 a {
+  color: #ffffff7c;
+
+}
+
+.box-projetos2{
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  padding: 30px;
+  
+}
+
+.contato-container {
+  background-color: #2D82B733;
+  padding: 60px 20px;
+  background-image: url(/portforio/image/logo-contato.png);
+  background-repeat: no-repeat;
+  background-position-y: 250px;
+  margin: 100px auto;
+  width: 1900px;
+  height: 450px;
+}
+
+.caixas {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  width: 1216;
+  height: 536;
+  top: 2058px;
+  opacity: 1;
+  flex-direction: row;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.caixa-contato {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+
+  gap: 200px;
+} 
+
+.caixa-contato2 {
+ 
+   display: flex;
+  justify-content: center;
+  list-style: none;
+ 
+  gap: 200px;
+  
+}
+
+.contato1  a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#git{
+  margin-right: 15px;
 }
